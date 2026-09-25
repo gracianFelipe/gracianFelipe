@@ -127,9 +127,8 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 ```bash
 🏢 Trabalhando em : ESUP, dev full stack e DBA
 🔨 Construindo    : Caixa (Go) e Casa do Açaí
-🎓 Formação       : Banco de Dados (ciência, engenharia, mineração e análise
-                     de dados) e Pós-graduação em Full Stack, ambas pela
-                     Mackenzie. A pós está em andamento
+🎓 Formação       : Banco de Dados e Pós-graduação em Desenvolvimento Full
+                     Stack pelo Mackenzie. A pós está em andamento
 📜 Certificações  : 34 certificados, ~524 horas
                      10 IA & ML · 6 eventos · 5 banco de dados
                      4 programação · 4 dados & BI · 4 compliance · 1 ferramentas
