@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64"
+     viewBox="0 0 900 64" role="img"
+     aria-label="Do banco de dados à interface · Web, mobile e automação em produção · Sistema que alguém usa todo dia · Demo navegável > screenshot bonito">
+  <defs>
+    <style>
+      @font-face{font-family:"Space Mono";font-weight:700;src:url(data:font/woff2;base64,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) format("woff2")}
+      /* Estado de repouso: sem a animação, nada ocupa espaço. */
+      .faixa,.corte{width:0}
+      /*
+       * No claro a barra escura é o que torna o ácido legível; no escuro
+       * ela seria mais clara que o fundo do GitHub e viraria mancha, então
+       * vira um brilho da própria cor do texto.
+       */
+      .faixa{fill:#1c1c1c;fill-opacity:1}
+      @media (prefers-color-scheme:dark){.faixa{fill:#d0fa66;fill-opacity:.13}}
+      .l0 .faixa{animation:b0 16707ms infinite}.c0{animation:t0 16707ms infinite}
+      .l1 .faixa{animation:b1 16707ms infinite}.c1{animation:t1 16707ms infinite}
+      .l2 .faixa{animation:b2 16707ms infinite}.c2{animation:t2 16707ms infinite}
+      .l3 .faixa{animation:b3 16707ms infinite}.c3{animation:t3 16707ms infinite}
+      /* Quem pediu menos movimento vê a primeira frase parada, por inteiro. */
+      @media (prefers-reduced-motion:reduce){
+        .faixa,.corte{animation:none!important}
+        .l0 .faixa{width:442.46px}
+        .c0{width:390.46px}
+      }
+      @keyframes t0{0.0%{width:0px;animation-timing-function:step-end}0.0%{width:0px;animation-timing-function:steps(29)}9.5469%{width:390.46px;animation-timing-function:step-end}18.5252%{width:390.46px;animation-timing-function:steps(29)}23.3854%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes b0{0.0%{width:0px;animation-timing-function:step-end}0.0%{width:0px;animation-timing-function:steps(29)}9.5469%{width:442.46px;animation-timing-function:step-end}18.5252%{width:442.46px;animation-timing-function:steps(29)}23.3854%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes t1{0.0%{width:0px;animation-timing-function:step-end}23.3854%{width:0px;animation-timing-function:steps(35)}34.9075%{width:471.24px;animation-timing-function:step-end}43.8858%{width:471.24px;animation-timing-function:steps(35)}49.7516%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes b1{0.0%{width:0px;animation-timing-function:step-end}23.3854%{width:0px;animation-timing-function:steps(35)}34.9075%{width:523.24px;animation-timing-function:step-end}43.8858%{width:523.24px;animation-timing-function:steps(35)}49.7516%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes t2{0.0%{width:0px;animation-timing-function:step-end}49.7516%{width:0px;animation-timing-function:steps(31)}59.9569%{width:417.38px;animation-timing-function:step-end}68.9352%{width:417.38px;animation-timing-function:steps(31)}74.1306%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes b2{0.0%{width:0px;animation-timing-function:step-end}49.7516%{width:0px;animation-timing-function:steps(31)}59.9569%{width:469.38px;animation-timing-function:step-end}68.9352%{width:469.38px;animation-timing-function:steps(31)}74.1306%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes t3{0.0%{width:0px;animation-timing-function:step-end}74.1306%{width:0px;animation-timing-function:steps(34)}85.3235%{width:457.78px;animation-timing-function:step-end}94.3018%{width:457.78px;animation-timing-function:steps(34)}100.0%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+      @keyframes b3{0.0%{width:0px;animation-timing-function:step-end}74.1306%{width:0px;animation-timing-function:steps(34)}85.3235%{width:509.78px;animation-timing-function:step-end}94.3018%{width:509.78px;animation-timing-function:steps(34)}100.0%{width:0px;animation-timing-function:step-end}100.0%{width:0px;animation-timing-function:step-end}}
+    </style>
+    <!--
+      A dissolução vive numa máscara, não na cor.
+
+      A primeira tentativa foi um gradiente radial no próprio preenchimento.
+      Funcionava em frase curta e falhava nas longas: como o raio é
+      proporcional à caixa, quanto maior a frase mais cedo a transparência
+      começava, e o texto acabava com o começo e o fim caindo fora da barra —
+      ilegíveis no tema claro. Aqui as paradas ficam em porcentagem pequena e
+      fixa, então a barra é sólida ao longo de toda a frase e só dissolve nas
+      pontas, que é onde ela some.
+
+      São duas máscaras multiplicadas: a horizontal faz a dissolução das
+      laterais, a vertical dá o respiro de cima e de baixo.
+    -->
+    <linearGradient id="lateral" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="6%" stop-color="#fff"/>
+      <stop offset="94%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="vertical" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="16%" stop-color="#fff"/>
+      <stop offset="84%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <!--
+      maskContentUnits em objectBoundingBox: sem isso o retângulo da máscara
+      mediria a viewport inteira (900px) e não a faixa, e a dissolução ficaria
+      parada enquanto a barra cresce.
+    -->
+    <mask id="mLateral" maskContentUnits="objectBoundingBox">
+      <rect width="1" height="1" fill="url(#lateral)"/>
+    </mask>
+    <mask id="mVertical" maskContentUnits="objectBoundingBox">
+      <rect width="1" height="1" fill="url(#vertical)"/>
+    </mask>
+
+
+    <clipPath id="corte0"><rect class="corte c0" x="254.77" y="0" height="64"/></clipPath><clipPath id="corte1"><rect class="corte c1" x="214.38" y="0" height="64"/></clipPath><clipPath id="corte2"><rect class="corte c2" x="241.31" y="0" height="64"/></clipPath><clipPath id="corte3"><rect class="corte c3" x="221.11" y="0" height="64"/></clipPath>
+  </defs>
+  <g class="linha l0">
+    <g mask="url(#mVertical)"><g mask="url(#mLateral)">
+      <rect class="faixa" x="228.77" y="12"
+            height="40" rx="6"/>
+    </g></g>
+    <g clip-path="url(#corte0)">
+      <text x="254.77" y="32" dominant-baseline="central"
+            font-family="Space Mono" font-weight="700" font-size="22"
+            fill="#d0fa66" xml:space="preserve">Do banco de dados à interface</text>
+    </g>
+  </g>
+  <g class="linha l1">
+    <g mask="url(#mVertical)"><g mask="url(#mLateral)">
+      <rect class="faixa" x="188.38" y="12"
+            height="40" rx="6"/>
+    </g></g>
+    <g clip-path="url(#corte1)">
+      <text x="214.38" y="32" dominant-baseline="central"
+            font-family="Space Mono" font-weight="700" font-size="22"
+            fill="#d0fa66" xml:space="preserve">Web, mobile e automação em produção</text>
+    </g>
+  </g>
+  <g class="linha l2">
+    <g mask="url(#mVertical)"><g mask="url(#mLateral)">
+      <rect class="faixa" x="215.31" y="12"
+            height="40" rx="6"/>
+    </g></g>
+    <g clip-path="url(#corte2)">
+      <text x="241.31" y="32" dominant-baseline="central"
+            font-family="Space Mono" font-weight="700" font-size="22"
+            fill="#d0fa66" xml:space="preserve">Sistema que alguém usa todo dia</text>
+    </g>
+  </g>
+  <g class="linha l3">
+    <g mask="url(#mVertical)"><g mask="url(#mLateral)">
+      <rect class="faixa" x="195.11" y="12"
+            height="40" rx="6"/>
+    </g></g>
+    <g clip-path="url(#corte3)">
+      <text x="221.11" y="32" dominant-baseline="central"
+            font-family="Space Mono" font-weight="700" font-size="22"
+            fill="#d0fa66" xml:space="preserve">Demo navegável &gt; screenshot bonito</text>
+    </g>
+  </g>
+</svg>
