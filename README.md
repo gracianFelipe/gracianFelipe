@@ -37,7 +37,7 @@ e automação de matrículas. Em paralelo, atendo clientes como freelancer desde
 | 🎼 **[Maestro](https://gracianodev.com.br/projetos/maestro)** | Integração SEI → Moodle: matrículas automáticas com aprovação humana. 585 alunos, 4.349 matrículas | Python · FastAPI · PostgreSQL | 🟢 Em produção |
 | 💬 **[Central de Disparos](https://gracianodev.com.br/projetos/sei-mensagens)** | Régua de cobrança via WhatsApp ligada ao ERP acadêmico, com painel protegido por 2FA | Node.js · Express · PostgreSQL | 🟢 Em produção |
 | 🎟️ **[ILP Summit](https://gracianodev.com.br/projetos/ilp-summit)** | Venda de ingressos do anúncio ao credenciamento: checkout próprio com PIX e cartão | Next.js · Firebase · InfinitePay | ✅ Evento realizado |
-| 💰 **[Caixa](https://github.com/gracianFelipe/caixa)** | Para onde o meu dinheiro vai? Ingestão por OFX, e-mail e Telegram; categorização determinística, sem IA no caminho crítico. **Código aberto** — escrito para ser defendido linha a linha | Go · PostgreSQL | 🔨 [Em desenvolvimento](https://github.com/gracianFelipe/caixa) |
+| 💰 **[Caixa](https://github.com/gracianFelipe/caixa)** | Para onde o meu dinheiro vai? Ingestão por OFX, e-mail e Telegram; categorização determinística, sem IA no caminho crítico. **Código aberto**, escrito para ser defendido linha a linha | Go · PostgreSQL | 🔨 [Em desenvolvimento](https://github.com/gracianFelipe/caixa) |
 | 📰 **[The Prism](https://pirsma.vercel.app)** | Jornal de curadoria por temas: backend Python coleta e classifica notícias reais de duas APIs | Python · Next.js · SQLite | 🔨 [Ao vivo](https://pirsma.vercel.app) |
 | 🃏 **[Truco Goiano](https://gracianodev.com.br/projetos/truco)** | PWA de cartas sem build e sem dependência: truco 2v2 e Fodinha contra bots, rodando offline | JavaScript puro · Web Audio · SVG | ✅ Jogável na demo |
 | 🍧 **[Casa do Açaí](https://gracianodev.com.br/projetos/casa-do-acai)** | Landing construída em cima do scroll: o copo é um vídeo que avança quadro a quadro conforme a página desce | Next.js 16 · GSAP · Lenis | 🔨 Em desenvolvimento |
@@ -72,7 +72,7 @@ Também escrevo  : PHP (plugin de Moodle) · Kotlin (Android nativo) · Go · SQ
 Web             : Next.js · React · Tailwind · GSAP · Framer Motion · Express · Flask · FastAPI
 Mobile          : React Native · Expo · EAS Build
 Dados           : PostgreSQL · SQLite · pandas · SQLAlchemy · ETL para Looker
-Visão comput.   : OpenCV · zxing-cpp · PyMuPDF — correção automática de provas por QR
+Visão comput.   : OpenCV · zxing-cpp · PyMuPDF, correção automática de provas por QR
 Documentos      : reportlab · pdfkit · openpyxl · exceljs · python-docx
 Infra           : Docker · Cloudflare Workers · Vercel · cron e tarefa agendada
 Testes          : pytest · Jest · Cypress · Supertest
@@ -90,23 +90,23 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 
 </div>
 
-> **Quase tudo que eu escrevo é privado** — código de cliente e da instituição
+> **Quase tudo que eu escrevo é privado**, código de cliente e da instituição
 > onde trabalho. Não é vitrine vazia: é que o que eu escrevo tem dono. Por isso
 > não coloco aqui um card de "linguagens mais usadas": ele só sabe contar o que
 > é público e diria que eu programo uma linguagem só.
 >
 > A exceção é o **[Caixa](https://github.com/gracianFelipe/caixa)**, aberto de
-> propósito — se você quiser ler código meu de ponta a ponta, é por ali. O resto
+> propósito. Se você quiser ler código meu de ponta a ponta, é por ali. O resto
 > está no **[portfólio](https://gracianodev.com.br)**, onde cada projeto abre uma
-> **demo navegável** — o app mobile inclusive, rodando dentro de uma moldura de
+> **demo navegável**, o app mobile inclusive, rodando dentro de uma moldura de
 > celular. É a forma honesta de mostrar trabalho fechado.
 
 **Onde o código vive**
 
 | | |
 |---|---|
-| 📖 [`gracianFelipe/caixa`](https://github.com/gracianFelipe/caixa) | aberto — Go, com as decisões de arquitetura registradas |
-| 🏛️ `github.com/escolasuperior` | 7 sistemas internos da ESUP — Python, JavaScript, PHP |
+| 📖 [`gracianFelipe/caixa`](https://github.com/gracianFelipe/caixa) | aberto: Go, com as decisões de arquitetura registradas |
+| 🏛️ `github.com/escolasuperior` | 7 sistemas internos da ESUP: Python, JavaScript, PHP |
 | 🔒 `github.com/gracianFelipe` | projetos próprios e de cliente, privados |
 | 🌐 [`gracianodev.com.br`](https://gracianodev.com.br) | demos navegáveis do que pode ser mostrado |
 
@@ -125,11 +125,11 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 ## `>` hoje
 
 ```bash
-🏢 Trabalhando em : ESUP — sistemas acadêmicos e financeiros internos
+🏢 Trabalhando em : ESUP, sistemas acadêmicos e financeiros internos
 🔨 Construindo    : Caixa (Go) e a evolução do portfólio
 📚 Formação       : 34 certificados · ~524 h · IA, banco de dados e back-end
 🎯 Próximo passo  : Go em produção e arquitetura de sistemas distribuídos
-📍 Base           : Goiânia, GO — atendo remoto
+📍 Base           : Goiânia, GO, atendo remoto
 💼 Status         : Disponível para novos projetos
 ```
 
