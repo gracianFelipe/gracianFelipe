@@ -1,0 +1,36 @@
+name: pac-man
+
+# Redesenha o gráfico de contribuições como uma fase de Pac-Man.
+#
+# O README aponta para a branch `pacman-output`; sem esta ação aquela branch
+# não existe e as imagens dão 404. Roda de madrugada, quando o gráfico do dia
+# já fechou, e dá para disparar à mão pela aba Actions.
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gera o SVG a partir das contribuições
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/pacman-contribution-graph.svg
+            dist/pacman-contribution-graph-dark.svg?gameTheme=github-dark
+
+      - name: Publica na branch pacman-output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: pacman-output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
