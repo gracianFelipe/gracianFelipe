@@ -41,7 +41,7 @@ app de saúde publicado na Google Play.
 | 🎼 **[Maestro](https://gracianodev.com.br/projetos/maestro)** | Integração SEI → Moodle: matrículas automáticas com aprovação humana. 585 alunos, 4.349 matrículas | Python · FastAPI · PostgreSQL | 🟢 Em produção |
 | 💬 **[Central de Disparos](https://gracianodev.com.br/projetos/sei-mensagens)** | Régua de cobrança via WhatsApp ligada ao ERP acadêmico, com painel protegido por 2FA | Node.js · Express · PostgreSQL | 🟢 Em produção |
 | 🎟️ **[ILP Summit](https://gracianodev.com.br/projetos/ilp-summit)** | Venda de ingressos do anúncio ao credenciamento: checkout próprio com PIX e cartão | Next.js · Firebase · InfinitePay | ✅ Evento realizado |
-| 💰 **[Caixa](https://github.com/gracianFelipe/caixa)** | Para onde o meu dinheiro vai? Ingestão por OFX, e-mail e Telegram; categorização determinística, sem IA no caminho crítico | Go · PostgreSQL | 🔨 Em desenvolvimento |
+| 💰 **Caixa** | Para onde o meu dinheiro vai? Ingestão por OFX, e-mail e Telegram; categorização determinística, sem IA no caminho crítico | Go · PostgreSQL | 🔨 Em desenvolvimento |
 | 📰 **[The Prism](https://pirsma.vercel.app)** | Jornal de curadoria por temas: backend Python coleta e classifica notícias reais de duas APIs | Python · Next.js · SQLite | 🔨 [Ao vivo](https://pirsma.vercel.app) |
 | 🃏 **[Truco Goiano](https://gracianodev.com.br/projetos/truco)** | PWA de cartas sem build e sem dependência: truco 2v2 e Fodinha contra bots, rodando offline | JavaScript puro · Web Audio · SVG | ✅ Jogável na demo |
 | 🍧 **[Casa do Açaí](https://gracianodev.com.br/projetos/casa-do-acai)** | Landing construída em cima do scroll: o copo é um vídeo que avança quadro a quadro conforme a página desce | Next.js 16 · GSAP · Lenis | 🔨 Em desenvolvimento |
@@ -62,19 +62,26 @@ app de saúde publicado na Google Play.
 
 **Backend & Dados**
 
-[![](https://skillicons.dev/icons?i=nodejs,express,python,flask,go,postgres,supabase&theme=light)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=nodejs,express,python,flask,fastapi,go,php,postgres,sqlite,supabase&theme=light)](https://skillicons.dev)
 
-**Ferramentas**
+**Infra & Ferramentas**
 
-[![](https://skillicons.dev/icons?i=git,github,linux,vscode,figma,vercel&theme=light)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=git,github,docker,cloudflare,vercel,linux,powershell,vscode&theme=light)](https://skillicons.dev)
 
 </div>
 
 ```
-Principal        : TypeScript · Python
-Aprendendo       : Go — o Caixa é meu primeiro projeto na linguagem
-Também           : Expo · GSAP · Framer Motion · TanStack Query · Zustand
-API de terceiro  : WhatsApp (Kairos Evo) · Moodle Web Services · InfinitePay
+Principal       : TypeScript · Python · JavaScript
+Também escrevo  : PHP (plugin de Moodle) · Kotlin (Android nativo) · Go · SQL · PowerShell · Shell
+Web             : Next.js · React · Tailwind · GSAP · Framer Motion · Express · Flask · FastAPI
+Mobile          : React Native · Expo · EAS Build
+Dados           : PostgreSQL · SQLite · pandas · SQLAlchemy · ETL para Looker
+Visão comput.   : OpenCV · zxing-cpp · PyMuPDF — correção automática de provas por QR
+Documentos      : reportlab · pdfkit · openpyxl · exceljs · python-docx
+Infra           : Docker · Cloudflare Workers · Vercel · cron e tarefa agendada
+Testes          : pytest · Jest · Cypress · Supertest
+Segurança       : helmet · express-rate-limit · bcrypt · 2FA
+Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive API · Firebase Admin · InfinitePay
 ```
 
 ---
@@ -83,17 +90,26 @@ API de terceiro  : WhatsApp (Kairos Evo) · Moodle Web Services · InfinitePay
 
 <div align="center">
 
-[![Stats](https://github-readme-stats.vercel.app/api?username=gracianFelipe&show_icons=true&hide_border=true&bg_color=fbfaf3&title_color=1c1c1c&text_color=1c1c1c&icon_color=7aa300&include_all_commits=true)](https://github.com/gracianFelipe)
 [![Streak](https://streak-stats.demolab.com?user=gracianFelipe&locale=pt_BR&hide_border=true&background=fbfaf3&ring=7aa300&fire=e94736&currStreakLabel=1c1c1c&sideLabels=1c1c1c&dates=6b6b6b)](https://github.com/gracianFelipe)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gracianFelipe&layout=compact&hide_border=true&bg_color=fbfaf3&title_color=1c1c1c&text_color=1c1c1c&langs_count=8&hide=html)](https://github.com/gracianFelipe)
 
 </div>
 
-> A maior parte do que eu escrevo vive em repositório privado — de cliente ou do
-> trabalho. O contador acima só enxerga o público, então ele conta menos do que
-> aconteceu. O que dá para ver de verdade está no
-> [portfólio](https://gracianodev.com.br), em demo navegável.
+> **Meus repositórios são privados** — código de cliente e da instituição onde
+> trabalho. Não é vitrine vazia: é que o que eu escrevo tem dono. Por isso não
+> coloco aqui um card de "linguagens mais usadas", que só sabe contar o que é
+> público e diria que eu não programo.
+>
+> O que dá para ver de verdade está no **[portfólio](https://gracianodev.com.br)**,
+> onde cada projeto abre uma **demo navegável** — o app mobile inclusive, rodando
+> dentro de uma moldura de celular. É a forma honesta de mostrar trabalho fechado.
+
+**Onde o código vive**
+
+| | |
+|---|---|
+| 🏛️ `github.com/escolasuperior` | 7 sistemas internos da ESUP — Python, JavaScript, PHP |
+| 🔒 `github.com/gracianFelipe` | projetos próprios e de cliente, privados |
+| 🌐 [`gracianodev.com.br`](https://gracianodev.com.br) | demos navegáveis do que pode ser mostrado |
 
 ---
 
