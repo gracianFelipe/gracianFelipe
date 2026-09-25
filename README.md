@@ -15,17 +15,13 @@
 
 ## `>` quem sou
 
-Desenvolvedor **full stack** em Goiânia. Projeto, construo e **coloco no ar** — do
+Desenvolvedor **full stack** em Goiânia. Projeto, construo e **coloco no ar**, do
 schema do banco até o pixel da interface.
 
 Trabalho na **ESUP** desde 2024 nos sistemas internos que sustentam a operação
 acadêmica e financeira: integração com o ERP, régua de cobrança, ETL financeiro
 e automação de matrículas. Em paralelo, atendo clientes como freelancer desde
-2023 — sites, apps e ferramentas de ponta a ponta.
-
-O que me interessa não é o projeto bonito de screenshot. É o que **roda hoje,
-com gente usando**: 585 alunos sincronizados, 4.349 matrículas processadas, um
-app de saúde publicado na Google Play.
+2023. Sites, apps e ferramentas de ponta a ponta.
 
 > No [portfólio](https://gracianodev.com.br) cada projeto abre uma **demo
 > navegável de verdade** — inclusive o app mobile, rodando dentro de uma
