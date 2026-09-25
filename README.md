@@ -125,13 +125,20 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 ## `>` hoje
 
 ```bash
-🏢 Trabalhando em : ESUP, sistemas acadêmicos e financeiros internos
-🔨 Construindo    : Caixa (Go) e a evolução do portfólio
-📚 Formação       : 34 certificados · ~524 h · IA, banco de dados e back-end
-🎯 Próximo passo  : Go em produção e arquitetura de sistemas distribuídos
+🏢 Trabalhando em : ESUP, dev full stack e DBA
+🔨 Construindo    : Caixa (Go) e Casa do Açaí
+🎓 Formação       : Banco de Dados (ciência, engenharia, mineração e análise
+                     de dados) e Pós-graduação em Full Stack, ambas pela
+                     Mackenzie. A pós está em andamento
+📜 Certificações  : 34 certificados, ~524 horas
+                     10 IA & ML · 6 eventos · 5 banco de dados
+                     4 programação · 4 dados & BI · 4 compliance · 1 ferramentas
 📍 Base           : Goiânia, GO, atendo remoto
 💼 Status         : Disponível para novos projetos
 ```
+
+> A lista completa, com PDF de cada certificado, fica em
+> [gracianodev.com.br/certificacoes](https://gracianodev.com.br/certificacoes).
 
 <div align="center">
 
