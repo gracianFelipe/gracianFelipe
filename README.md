@@ -24,7 +24,7 @@ e automação de matrículas. Em paralelo, atendo clientes como freelancer desde
 2023. Sites, apps e ferramentas de ponta a ponta.
 
 > No [portfólio](https://gracianodev.com.br) cada projeto abre uma **demo
-> navegável de verdade** — inclusive o app mobile, rodando dentro de uma
+> navegável de verdade**, inclusive o app mobile, rodando dentro de uma
 > moldura de celular. Nada de print.
 
 ---
