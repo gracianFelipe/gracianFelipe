@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1200&color=1C1C1C&center=true&vCenter=true&width=640&lines=Do+banco+de+dados+%C3%A0+interface;Web%2C+mobile+e+automa%C3%A7%C3%A3o+em+produ%C3%A7%C3%A3o;Sistema+que+algu%C3%A9m+usa+todo+dia;Demo+naveg%C3%A1vel+%3E+screenshot+bonito)](https://gracianodev.com.br)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=22&pause=1200&color=D0FA66&background=1C1C1C&center=true&vCenter=true&width=900&height=64&lines=Do+banco+de+dados+%C3%A0+interface;Web%2C+mobile+e+automa%C3%A7%C3%A3o+em+produ%C3%A7%C3%A3o;Sistema+que+algu%C3%A9m+usa+todo+dia;Demo+naveg%C3%A1vel+%3E+screenshot+bonito)](https://gracianodev.com.br)
 
 [![Portfólio](https://img.shields.io/badge/PORTF%C3%93LIO-gracianodev.com.br-1c1c1c?style=for-the-badge&labelColor=d0fa66)](https://gracianodev.com.br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-graciano)
