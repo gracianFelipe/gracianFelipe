@@ -1,0 +1,20 @@
+{
+  "type": "normal",
+  "fileName": "cidade-3d.svg",
+  "backgroundColor": "#fbfaf3",
+  "foregroundColor": "#1c1c1c",
+  "strongColor": "#1c1c1c",
+  "weakColor": "#6b6b6b",
+  "radarColor": "#7aa300",
+  "growingAnimation": true,
+  "contribColors": ["#e9e5db", "#c9dd8f", "#a8c95e", "#7aa300", "#4f6b00"],
+  "darkMode": {
+    "type": "normal",
+    "backgroundColor": "#0d1117",
+    "foregroundColor": "#e6edf3",
+    "strongColor": "#d0fa66",
+    "weakColor": "#8b949e",
+    "radarColor": "#d0fa66",
+    "contribColors": ["#1c1f24", "#3d4a1a", "#6b8a23", "#9fc43a", "#d0fa66"]
+  }
+}

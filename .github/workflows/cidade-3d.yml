@@ -1,0 +1,42 @@
+name: cidade 3d
+
+# Desenha o gráfico de contribuições como uma cidade isométrica: cada dia é
+# um prédio, a altura é o número de contribuições. As cores ficam em
+# cidade-3d.json (ink e verde ácido, as mesmas do portfólio).
+#
+# Publica em uma branch à parte, e não no main: a ação roda todo dia, e um
+# commit diário do robô no main só atrapalharia o histórico do perfil.
+#
+# Os commits dos repositórios privados (inclusive da org escolasuperior) só
+# entram se "Include private contributions on my profile" estiver ligado nas
+# configurações do perfil. Sem isso a cidade mostra só o que é público.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Gera a cidade
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: cidade-3d.json
+
+      - name: Publica na branch cidade-3d-output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: cidade-3d-output
+          build_dir: profile-3d-contrib
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
