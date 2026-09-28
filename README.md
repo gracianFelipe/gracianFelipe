@@ -86,7 +86,7 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 
 <div align="center">
 
-[![Streak](https://streak-stats.demolab.com?user=gracianFelipe&locale=pt_BR&hide_border=true&background=fbfaf3&ring=7aa300&fire=e94736&currStreakLabel=1c1c1c&sideLabels=1c1c1c&dates=6b6b6b)](https://github.com/gracianFelipe)
+[![Streak](https://streak-stats.demolab.com?user=gracianFelipe&locale=pt_BR&v=privadas&hide_border=true&background=fbfaf3&ring=7aa300&fire=e94736&currStreakLabel=1c1c1c&sideLabels=1c1c1c&dates=6b6b6b)](https://github.com/gracianFelipe)
 
 </div>
 
