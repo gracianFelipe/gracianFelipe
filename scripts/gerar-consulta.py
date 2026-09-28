@@ -41,9 +41,10 @@ USUARIO = "gracianFelipe"
 
 # Números sem API. Ao mudar, mudar junto a fonte citada.
 FIXOS = [
-    # Os três marcados em produção na tabela de projetos deste README:
-    # OniSaúde, Maestro e Central de Disparos. O ILP Summit fica de fora
-    # porque o evento acabou e o site saiu do ar.
+    # Os três com `track: "producao"` no portfólio (src/data/projects.ts),
+    # que são também os marcados em produção na tabela deste README:
+    # OniSaúde, Maestro e Central de Disparos. O ILP Summit está em
+    # `concluido`: o evento acabou e o site saiu do ar.
     ("projetos_em_producao", "3"),
     # Os sistemas da org escolasuperior que são meus: sol-academy, Maestro,
     # sei-mensagens, Auto-Provas, sei-decidir, jornada-sei e ovg-link. A lista
