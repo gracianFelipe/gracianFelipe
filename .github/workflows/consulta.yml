@@ -1,0 +1,71 @@
+name: consulta sql
+
+# Gera saida/consulta.svg: uma sessão de psql consultando a minha atividade.
+# Quatro números vêm do calendário de contribuições (que conta os
+# repositórios privados, porque a opção está ligada no perfil) e são relidos
+# todo dia. O gerador está em scripts/gerar-consulta.py.
+#
+# Publica em branch própria (consulta-output), como a cidade 3D: a saída muda
+# todo dia e não deve virar commit de robô no main. Não divide branch com a
+# cidade porque cada publicação substitui a branch inteira.
+on:
+  schedule:
+    - cron: "10 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# Leitura por padrão. Só o job que publica ganha escrita: o gerador roda
+# pacote do PyPI e lê uma fonte baixada da internet, e não precisa de mais
+# que isso para consultar o calendário, que é público.
+permissions:
+  contents: read
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # Versões fixas: a fonte embutida sai idêntica entre execuções só se o
+      # fontTools não mudar por baixo.
+      - name: Dependências
+        run: pip install fonttools==4.62.1 brotli==1.2.0
+
+      - name: Gera a consulta
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/gerar-consulta.py
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: consulta
+          path: saida/
+          retention-days: 1
+
+  publicar:
+    needs: gerar
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: consulta
+          path: saida
+
+      - name: Publica na branch consulta-output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: consulta-output
+          build_dir: saida
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -22,14 +22,9 @@ Como funciona:
 Uso: python scripts/gerar-faixa.py
 """
 
-import base64
-import io
-import re
-import urllib.request
 from pathlib import Path
 
-from fontTools.subset import Subsetter
-from fontTools.ttLib import TTFont
+from fonte import space_mono
 
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA = RAIZ / "faixa.svg"
@@ -53,43 +48,6 @@ LARGURA = 900         # largura do quadro; o GitHub reduz proporcionalmente
 MS_LETRA = 55         # digitando
 MS_APAGAR = 28        # apagando
 MS_PAUSA = 1500       # frase inteira parada na tela
-
-
-def fonte_embutida(texto):
-    """Baixa a Space Mono Bold e devolve (data-uri, avanço por caractere)."""
-    css = urllib.request.urlopen(
-        urllib.request.Request(
-            "https://fonts.googleapis.com/css2?family=Space+Mono:wght@700",
-            # Sem um UA de navegador completo o Google devolve TTF em vez de
-            # woff2, e o arquivo embutido triplicaria de tamanho.
-            headers={
-                "User-Agent": (
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                )
-            },
-        )
-    ).read().decode()
-
-    # A última @font-face do CSS é a do intervalo latino básico.
-    url = re.findall(r"https://[^)]*\.woff2", css)[-1]
-    bruto = urllib.request.urlopen(url).read()
-
-    fonte = TTFont(io.BytesIO(bruto))
-    sub = Subsetter()
-    sub.populate(text="".join(sorted(set(texto))))
-    sub.subset(fonte)
-
-    buffer = io.BytesIO()
-    fonte.flavor = "woff2"
-    fonte.save(buffer)
-
-    # Monoespaçada: todo glifo tem o mesmo avanço, então um serve de régua.
-    upem = fonte["head"].unitsPerEm
-    avanco = fonte["hmtx"]["a"][0] / upem * TAMANHO
-
-    uri = "data:font/woff2;base64," + base64.b64encode(buffer.getvalue()).decode()
-    return uri, avanco
 
 
 def quadros(frases, avanco):
@@ -156,7 +114,7 @@ def quadros(frases, avanco):
 
 
 def main():
-    uri, avanco = fonte_embutida("".join(FRASES))
+    uri, avanco = space_mono("".join(FRASES), 700, TAMANHO)
     regras, corpo, total = quadros(FRASES, avanco)
 
     linhas = []
@@ -259,7 +217,9 @@ def main():
 </svg>
 '''
 
-    SAIDA.write_text(svg, encoding="utf-8")
+    # LF fixo: no Windows o padrão seria CRLF, e a mesma saída gerada aqui e
+    # na Action (Linux) viraria diff falso.
+    SAIDA.write_text(svg, encoding="utf-8", newline="\n")
     print(f"ok — {SAIDA.name}, {len(svg) / 1024:.1f} KB, ciclo de {total / 1000:.1f}s")
 
 

@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
 
       - name: Gera a cidade
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3

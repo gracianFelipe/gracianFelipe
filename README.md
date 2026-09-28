@@ -86,6 +86,8 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/gracianFelipe/gracianFelipe/consulta-output/consulta.svg" width="520" alt="Sessão de psql consultando a minha atividade no GitHub: dias ativos, dia mais ativo, mês de pico, recorde em um dia, projetos em produção e sistemas na ESUP">
+
 [![Streak](https://streak-stats.demolab.com?user=gracianFelipe&locale=pt_BR&v=privadas&hide_border=true&background=fbfaf3&ring=7aa300&fire=e94736&currStreakLabel=1c1c1c&sideLabels=1c1c1c&dates=6b6b6b)](https://github.com/gracianFelipe)
 
 </div>
@@ -112,7 +114,7 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 
 ---
 
-## `>` atividade
+## `>` commits
 
 <img alt="Gráfico de contribuições do último ano desenhado como uma cidade isométrica" src="https://raw.githubusercontent.com/gracianFelipe/gracianFelipe/cidade-3d-output/cidade-3d.svg" width="100%">
 
