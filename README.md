@@ -112,7 +112,7 @@ Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive
 
 ---
 
-## `>` meus commits, em 3D
+## `>` atividade
 
 <img alt="Gráfico de contribuições do último ano desenhado como uma cidade isométrica" src="https://raw.githubusercontent.com/gracianFelipe/gracianFelipe/cidade-3d-output/cidade-3d.svg" width="100%">
 
