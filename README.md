@@ -33,6 +33,7 @@ e automação de matrículas. Em paralelo, atendo clientes como freelancer desde
 
 | Projeto | O que é | Stack | Estado |
 |---|---|---|---|
+| 🌞 **[Sol Academy](https://gracianodev.com.br/projetos/sol-academy)** | Tutora virtual com IA dentro do Moodle: responde a partir do material da disciplina, lembra prazos e recusa questão de prova sem passar pela IA. 86 salas EAD | PHP · JavaScript · Zaia (gpt-5-mini) | 🟢 Em produção |
 | 🩺 **[OniSaúde 2.0](https://gracianodev.com.br/projetos/onisaude)** | App de telemedicina: 29 telas, teleconsulta, prontuário com PDF assinado e pagamento por Pix, cartão e boleto | React Native · Expo · TypeScript | 🟢 [Google Play](https://play.google.com/store/apps/details?id=br.com.onisaudev2) |
 | 🎼 **[Maestro](https://gracianodev.com.br/projetos/maestro)** | Integração SEI → Moodle: matrículas automáticas com aprovação humana. 585 alunos, 4.349 matrículas | Python · FastAPI · PostgreSQL | 🟢 Em produção |
 | 💬 **[Central de Disparos](https://gracianodev.com.br/projetos/sei-mensagens)** | Régua de cobrança via WhatsApp ligada ao ERP acadêmico, com painel protegido por 2FA | Node.js · Express · PostgreSQL | 🟢 Em produção |

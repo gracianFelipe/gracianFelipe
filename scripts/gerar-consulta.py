@@ -41,11 +41,11 @@ USUARIO = "gracianFelipe"
 
 # Números sem API. Ao mudar, mudar junto a fonte citada.
 FIXOS = [
-    # Os três com `track: "producao"` no portfólio (src/data/projects.ts),
-    # que são também os marcados em produção na tabela deste README:
-    # OniSaúde, Maestro e Central de Disparos. O ILP Summit está em
+    # Os quatro com `track: "producao"` no portfólio (src/data/projects.ts),
+    # que são também os marcados em produção na tabela deste README: Sol
+    # Academy, OniSaúde, Maestro e Central de Disparos. O ILP Summit está em
     # `concluido`: o evento acabou e o site saiu do ar.
-    ("projetos_em_producao", "3"),
+    ("projetos_em_producao", "4"),
     # Os sistemas da org escolasuperior que são meus: sol-academy, Maestro,
     # sei-mensagens, Auto-Provas, sei-decidir, jornada-sei e ovg-link. A lista
     # é minha, não da API: a org tem outros repositórios com commits meus que
@@ -131,6 +131,13 @@ def calendario():
 
 def metricas(dias):
     """As quatro linhas que saem do calendário, já formatadas para exibir."""
+    # Sem datas explícitas, o GitHub começa o calendário no domingo de um ano
+    # atrás, então o período tem de 365 a 371 dias conforme o dia da semana
+    # ("149 de 371" num sábado). Fica só o último ano corrido, sempre 365.
+    hoje = max(datetime.strptime(d["date"], "%Y-%m-%d") for d in dias)
+    inicio = (hoje - timedelta(days=364)).strftime("%Y-%m-%d")
+    dias = [d for d in dias if d["date"] >= inicio]
+
     ativos = [d for d in dias if d["contributionCount"] > 0]
     if not ativos:
         sys.exit("nenhuma contribuição no período: a tabela sairia só com zeros")
