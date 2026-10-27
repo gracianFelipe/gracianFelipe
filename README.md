@@ -33,10 +33,10 @@ e automação de matrículas. Em paralelo, atendo clientes como freelancer desde
 
 | Projeto | O que é | Stack | Estado |
 |---|---|---|---|
-| 🌞 **[Sol Academy](https://gracianodev.com.br/projetos/sol-academy)** | Tutora virtual com IA dentro do Moodle: responde a partir do material da disciplina, lembra prazos e recusa questão de prova sem passar pela IA. 86 salas EAD | PHP · JavaScript · Zaia (gpt-5-mini) | 🟢 Em produção |
-| 🩺 **[OniSaúde 2.0](https://gracianodev.com.br/projetos/onisaude)** | App de telemedicina: 29 telas, teleconsulta, prontuário com PDF assinado e pagamento por Pix, cartão e boleto | React Native · Expo · TypeScript | 🟢 [Google Play](https://play.google.com/store/apps/details?id=br.com.onisaudev2) |
-| 🎼 **[Maestro](https://gracianodev.com.br/projetos/maestro)** | Integração SEI → Moodle: matrículas automáticas com aprovação humana. 585 alunos, 4.349 matrículas | Python · FastAPI · PostgreSQL | 🟢 Em produção |
-| 💬 **[Central de Disparos](https://gracianodev.com.br/projetos/sei-mensagens)** | Régua de cobrança via WhatsApp ligada ao ERP acadêmico, com painel protegido por 2FA | Node.js · Express · PostgreSQL | 🟢 Em produção |
+| 🌞 **[Sol Academy](https://gracianodev.com.br/projetos/sol-academy)** | Tutora virtual com IA dentro do Moodle: responde a partir do material da disciplina, lembra prazos, monta simulados corrigidos no servidor e recusa questão de prova sem passar pela IA. 86 salas EAD, com um observador sem IA revisando as respostas | PHP · JavaScript · Zaia (gpt-5-mini) | 🟢 Em produção |
+| 🩺 **[OniSaúde 2.0](https://gracianodev.com.br/projetos/onisaude)** | App de telemedicina: 31 telas, teleconsulta, prontuário com PDF assinado e pagamento por Pix, cartão e boleto | React Native · Expo · TypeScript | 🟢 [Google Play](https://play.google.com/store/apps/details?id=br.com.onisaudev2) e App Store |
+| 🎼 **[Maestro](https://gracianodev.com.br/projetos/maestro)** | Integração SEI → Moodle: toda noite o Moodle espelha o ERP, com aprovação humana só para o que envolve professor. 585 alunos, 4.349 matrículas | Python · FastAPI · PostgreSQL | 🟢 Em produção |
+| 💬 **[Central de Disparos](https://gracianodev.com.br/projetos/sei-mensagens)** | Régua de cobrança via WhatsApp ligada ao ERP acadêmico: dispara sozinha por cron, com backup auditável de cada execução | Node.js · Express · PostgreSQL | 🟢 Em produção |
 | 🎟️ **[ILP Summit](https://gracianodev.com.br/projetos/ilp-summit)** | Venda de ingressos do anúncio ao credenciamento: checkout próprio com PIX e cartão | Next.js · Firebase · InfinitePay | ✅ Evento realizado |
 | 💰 **[Caixa](https://github.com/gracianFelipe/caixa)** | Para onde o meu dinheiro vai? Ingestão por OFX, e-mail e Telegram; categorização determinística, sem IA no caminho crítico. **Código aberto**, escrito para ser defendido linha a linha | Go · PostgreSQL | 🔨 [Em desenvolvimento](https://github.com/gracianFelipe/caixa) |
 | 📰 **[The Prism](https://pirsma.vercel.app)** | Jornal de curadoria por temas: backend Python coleta e classifica notícias reais de duas APIs | Python · Next.js · SQLite | 🔨 [Ao vivo](https://pirsma.vercel.app) |
@@ -77,7 +77,7 @@ Visão comput.   : OpenCV · zxing-cpp · PyMuPDF, correção automática de pro
 Documentos      : reportlab · pdfkit · openpyxl · exceljs · python-docx
 Infra           : Docker · Cloudflare Workers · Vercel · cron e tarefa agendada
 Testes          : pytest · Jest · Cypress · Supertest
-Segurança       : helmet · express-rate-limit · bcrypt · 2FA
+Segurança       : helmet · express-rate-limit · bcrypt · OIDC (Entra ID) · gitleaks
 Integrações     : Moodle Web Services · WhatsApp (Kairos Evo) · Google Drive API · Firebase Admin · InfinitePay
 ```
 
